@@ -1,2 +1,2 @@
-#!/bin/python
+#!/usrbin/env python
 print "hello"
