@@ -1,5 +1,5 @@
 #!/usr/bin/perl -w
-#author eon9
+#author eon9 Rodney LaLonde
 #this asks numbers in two arrays then it creates a third array between the
 #first two arrays' numbers that match
 use strict;
@@ -20,7 +20,7 @@ while () {
         @nums = split ( ' ' , $input ); # stores all numbers on line in array
         $count = @nums ;
     }
-    for each $num ( @nums ) {
+    foreach $num ( @nums ) {
         $freq{ $num }++ ;
         $sum += $num ;
     }else { last ;

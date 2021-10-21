@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-#author eon9
+#eon9
 #Number Guess
 
 secret_number = "70"
