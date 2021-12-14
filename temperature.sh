@@ -8,6 +8,6 @@ if [ "$temperature -gt 70" ]
 else[ "$temperature -lt 70" ]
         echo "Higher"
 elif[ "$temperature == 70]
-     echo "Congratulations!"
+     echo "Congratulations! that is a comfortable temperature"
 fi
 
