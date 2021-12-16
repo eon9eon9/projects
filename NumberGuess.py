@@ -3,14 +3,17 @@
 #Number Guess
 
 secret_number = "70"
-guess = input(" ")
+#guess = input(" ")
+guess=input("Guess secret number between 1 to 100: ")
 
 while guess != secret_number:
- guess=input("Guess secret number between 1 to 100: ")
- if  guess > "70":
-    print("Lower")
- elif guess < "70":
-    print("Higher")
- else:
-    print( "Congratulations" )
+ if guess > "secret_number":
+  else:
+   print("Lower")
+    if  guess < "secret_number":
+      else:
+       print("Higher")
+else:
+    print( "Congratulations you guessed right!" )
 
+exit[0]

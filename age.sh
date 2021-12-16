@@ -1,11 +1,11 @@
 #! /bin/bash
-age = 40
+age = [21-100]
 
-if [ "$age -gt 40" ] 
+if [ "$age -gt 100" ] 
     echo "Lower"
 
-else [ "$age -lt 40" ]
+elif [ "$age -lt 21" ]
         echo "Higher"
-elif [ "$age == 40" ]
-        echo "Congratulations"
+else [ "$age == 50 " ]
+        echo "Congratulations you're old enough"
 fi        
