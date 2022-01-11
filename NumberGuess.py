@@ -2,7 +2,7 @@
 #author eon9
 #Number Guess
 
-secret_number = "70"
+secret_number = "60"
 #guess = input(" ")
 guess=input("Guess secret number between 1 to 100: ")
 

@@ -12,7 +12,7 @@ else:
             if future_year % 400 == 0:
                 print(future_year, "is a leap year, and it is", years_between, "years away")
             else:
-                print(future_year, "is not a leap year")
+                print(future_year, "is a leap year")
         else:
             print(future_year, "is not a leap year, and it is", years_between, "years away")
     else:
